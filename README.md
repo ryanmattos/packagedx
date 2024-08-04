@@ -10,7 +10,17 @@ Brings any package information by hovering it in `package.json`
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
 - Initial release of visualizing `description` and `found version` of hovered package;
+
+### 0.0.25
+
+- early return outside `package` or `package-lock.json`;
+- adding package not found message;
+- changing LICENSE.txt to .md;
+- changing extension `displayName`;
+- adding extension `icon`;
+- adding extension `author`;
+- adding extension `galleryBanner`;
 
