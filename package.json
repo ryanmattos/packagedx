@@ -1,9 +1,14 @@
 {
   "name": "packagedx",
-  "displayName": "packageDX",
+  "displayName": "Package DXription",
   "description": "A ready-to-use extension for showing packages informations",
   "publisher": "ryanfmattos",
   "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Ryan Matos",
+    "email": "ryanferreiradematos@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ryanmattos/packagedx.git"
@@ -14,6 +19,11 @@
   "categories": [
     "Other"
   ],
+  "galleryBanner": {
+    "color": "#333333",
+    "theme": "dark"
+  },
+  "icon": "logo.png",
   "activationEvents": [
     "onLanguage:json"
   ],
@@ -24,7 +34,7 @@
         "id": "json",
         "extensions": [".json"],
         "aliases": ["JSON", "json"],
-        "filenames": []
+        "filenames": ["package.json", "package-lock.json"]
       }
     ]
   },
