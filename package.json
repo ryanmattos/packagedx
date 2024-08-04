@@ -2,7 +2,12 @@
   "name": "packagedx",
   "displayName": "packageDX",
   "description": "A ready-to-use extension for showing packages informations",
+  "publisher": "ryanfmattos",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanmattos/packagedx.git"
+  },
   "engines": {
     "vscode": "^1.92.0"
   },

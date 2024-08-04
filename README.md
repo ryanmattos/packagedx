@@ -6,7 +6,7 @@ PackageDX _(formerly **Package Description**)_ is a ready-to-use extension for p
 
 Brings any package information by hovering it in `package.json`
 
-![alt text](./src/assets/imgs/image.png)
+![alt text](https://github.com/ryanmattos/packagedx/blob/master/src/assets/imgs/image.png?raw=true)
 
 ## Release Notes
 
