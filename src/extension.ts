@@ -22,7 +22,7 @@ const provideHover: (
    
    const hoveredLine = document.lineAt(position.line);
    const isPackage = new RegExp(
-      `"(?<key>dependencies|devDependencies)"\\s*:\\s*{[^}]*${hoveredLine.text
+      `"(?<key>dependencies|devDependencies|peerDependencies)"\\s*:\\s*{[^}]*${hoveredLine.text
          .trim()
          .replace(/([.*+?^=!:${}()|\[\]\/\\])/g, '\\$1')}[^}]*}`,
       's'
@@ -61,6 +61,6 @@ const provideHover: (
 };
 
 const message = (json: any) =>
-   `${json.description}\n\n_Found version: \`v${json.version}\`_`;
+   `${json.description ?? '[No description]'}\n\n_Found version: \`v${json.version}\`_`;
 const notFoundMessage = (pkg: string) => `_Package \`${pkg}\` not found_`;
 const decode = (data: any) => JSON.parse(new TextDecoder().decode(data));

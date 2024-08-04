@@ -3,7 +3,7 @@
   "displayName": "Package DXription",
   "description": "A ready-to-use extension for showing packages informations",
   "publisher": "ryanfmattos",
-  "version": "0.0.25",
+  "version": "0.0.31",
   "license": "MIT",
   "author": {
     "name": "Ryan Matos",
@@ -17,7 +17,7 @@
     "vscode": "^1.92.0"
   },
   "categories": [
-    "Other"
+    "Visualization"
   ],
   "galleryBanner": {
     "color": "#333333",
