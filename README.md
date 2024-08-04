@@ -24,7 +24,7 @@ Brings any package information by hovering it in `package.json`
 - adding extension `author`;
 - adding extension `galleryBanner`;
 
-#### 0.0.31
+### 0.0.31
 
 - supporting `peerDependencies`;
 - default message when package description is not provided;
